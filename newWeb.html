@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding</title>
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        /* background: url("CodingImage.jpg"); */
+        background-color: #c3dede;
+        height: 1000px;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 34px;
+        top: 20px;
+    }
+
+    .mid {
+        display: block;
+        width: 42%;
+        margin: 20px auto;
+        border: 2px solid yellow;
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        border: 2px solid green;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 21px;
+    }
+    .navbar li a{
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        /* visibility: hidden; */
+        color: rgb(207, 109, 109);
+    }
+    .left img{
+        width: 4%;
+    }
+    /* .navbar li a:hover{
+        display: none;
+    } */
+</style>
+
+<body>
+    <header class="head">
+        <div class="left">
+            <img src="CodingImage.jpg" alt="">
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Languages</a></li>
+                <li><a href="#">Contact info</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            right
+        </div>
+    </header>
+
+</body>
+
+</html>
